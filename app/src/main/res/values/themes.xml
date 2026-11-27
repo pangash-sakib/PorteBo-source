@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Base application theme with rounded shapes -->
+    <style name="Theme.PorteBo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryVariant">@color/primary_red_dark</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:statusBarColor">@color/bg_app</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/bg_app</item>
+        <item name="materialCardViewStyle">@style/Widget.PorteBo.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.PorteBo.Button</item>
+    </style>
+
+    <style name="Widget.PorteBo.CardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeColor">@color/border_card</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Widget.PorteBo.Button" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">14dp</item>
+    </style>
+
+    <!-- Fullscreen AMOLED Theme for Fake Battery and Blacklist Overlay -->
+    <style name="Theme.PorteBo.FullscreenAMOLED" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/bg_pure_black</item>
+        <item name="android:colorBackground">@color/bg_pure_black</item>
+        <item name="android:statusBarColor">@color/bg_pure_black</item>
+        <item name="android:navigationBarColor">@color/bg_pure_black</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

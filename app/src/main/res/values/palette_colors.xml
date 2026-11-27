@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="palette_red">#E50914</color>
+    <color name="palette_red_dark">#B80710</color>
+    <color name="palette_blue">#1E73D8</color>
+    <color name="palette_blue_dark">#1557A0</color>
+    <color name="palette_purple">#7E57C2</color>
+    <color name="palette_purple_dark">#5E35A1</color>
+    <color name="palette_green">#00897B</color>
+    <color name="palette_green_dark">#00695C</color>
+    <color name="palette_orange">#E87500</color>
+    <color name="palette_orange_dark">#B85200</color>
+    <color name="palette_pink">#D81B60</color>
+    <color name="palette_pink_dark">#AD1457</color>
+    <color name="palette_teal">#00838F</color>
+    <color name="palette_teal_dark">#006064</color>
+    <color name="palette_slate">#546E7A</color>
+    <color name="palette_slate_dark">#37474F</color>
+</resources>

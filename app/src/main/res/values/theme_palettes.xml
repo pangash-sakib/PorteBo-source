@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PorteBo.Palette.Red" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_red</item>
+        <item name="colorPrimaryVariant">@color/palette_red_dark</item>
+        <item name="colorSecondary">@color/palette_red</item>
+        <item name="colorSecondaryVariant">@color/palette_red_dark</item>
+        <item name="colorControlActivated">@color/palette_red</item>
+        <item name="android:colorAccent">@color/palette_red</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.Palette.Blue" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_blue</item>
+        <item name="colorPrimaryVariant">@color/palette_blue_dark</item>
+        <item name="colorSecondary">@color/palette_blue</item>
+        <item name="colorSecondaryVariant">@color/palette_blue_dark</item>
+        <item name="colorControlActivated">@color/palette_blue</item>
+        <item name="android:colorAccent">@color/palette_blue</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.Palette.Purple" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_purple</item>
+        <item name="colorPrimaryVariant">@color/palette_purple_dark</item>
+        <item name="colorSecondary">@color/palette_purple</item>
+        <item name="colorSecondaryVariant">@color/palette_purple_dark</item>
+        <item name="colorControlActivated">@color/palette_purple</item>
+        <item name="android:colorAccent">@color/palette_purple</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.Palette.Green" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_green</item>
+        <item name="colorPrimaryVariant">@color/palette_green_dark</item>
+        <item name="colorSecondary">@color/palette_green</item>
+        <item name="colorSecondaryVariant">@color/palette_green_dark</item>
+        <item name="colorControlActivated">@color/palette_green</item>
+        <item name="android:colorAccent">@color/palette_green</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.Palette.Orange" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_orange</item>
+        <item name="colorPrimaryVariant">@color/palette_orange_dark</item>
+        <item name="colorSecondary">@color/palette_orange</item>
+        <item name="colorSecondaryVariant">@color/palette_orange_dark</item>
+        <item name="colorControlActivated">@color/palette_orange</item>
+        <item name="android:colorAccent">@color/palette_orange</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.Palette.Pink" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_pink</item>
+        <item name="colorPrimaryVariant">@color/palette_pink_dark</item>
+        <item name="colorSecondary">@color/palette_pink</item>
+        <item name="colorSecondaryVariant">@color/palette_pink_dark</item>
+        <item name="colorControlActivated">@color/palette_pink</item>
+        <item name="android:colorAccent">@color/palette_pink</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.Palette.Teal" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_teal</item>
+        <item name="colorPrimaryVariant">@color/palette_teal_dark</item>
+        <item name="colorSecondary">@color/palette_teal</item>
+        <item name="colorSecondaryVariant">@color/palette_teal_dark</item>
+        <item name="colorControlActivated">@color/palette_teal</item>
+        <item name="android:colorAccent">@color/palette_teal</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.Palette.Slate" parent="Theme.PorteBo">
+        <item name="colorPrimary">@color/palette_slate</item>
+        <item name="colorPrimaryVariant">@color/palette_slate_dark</item>
+        <item name="colorSecondary">@color/palette_slate</item>
+        <item name="colorSecondaryVariant">@color/palette_slate_dark</item>
+        <item name="colorControlActivated">@color/palette_slate</item>
+        <item name="android:colorAccent">@color/palette_slate</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Red" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_red</item>
+        <item name="colorPrimaryVariant">@color/palette_red_dark</item>
+        <item name="colorSecondary">@color/palette_red</item>
+        <item name="colorSecondaryVariant">@color/palette_red_dark</item>
+        <item name="colorControlActivated">@color/palette_red</item>
+        <item name="android:colorAccent">@color/palette_red</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Blue" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_blue</item>
+        <item name="colorPrimaryVariant">@color/palette_blue_dark</item>
+        <item name="colorSecondary">@color/palette_blue</item>
+        <item name="colorSecondaryVariant">@color/palette_blue_dark</item>
+        <item name="colorControlActivated">@color/palette_blue</item>
+        <item name="android:colorAccent">@color/palette_blue</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Purple" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_purple</item>
+        <item name="colorPrimaryVariant">@color/palette_purple_dark</item>
+        <item name="colorSecondary">@color/palette_purple</item>
+        <item name="colorSecondaryVariant">@color/palette_purple_dark</item>
+        <item name="colorControlActivated">@color/palette_purple</item>
+        <item name="android:colorAccent">@color/palette_purple</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Green" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_green</item>
+        <item name="colorPrimaryVariant">@color/palette_green_dark</item>
+        <item name="colorSecondary">@color/palette_green</item>
+        <item name="colorSecondaryVariant">@color/palette_green_dark</item>
+        <item name="colorControlActivated">@color/palette_green</item>
+        <item name="android:colorAccent">@color/palette_green</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Orange" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_orange</item>
+        <item name="colorPrimaryVariant">@color/palette_orange_dark</item>
+        <item name="colorSecondary">@color/palette_orange</item>
+        <item name="colorSecondaryVariant">@color/palette_orange_dark</item>
+        <item name="colorControlActivated">@color/palette_orange</item>
+        <item name="android:colorAccent">@color/palette_orange</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Pink" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_pink</item>
+        <item name="colorPrimaryVariant">@color/palette_pink_dark</item>
+        <item name="colorSecondary">@color/palette_pink</item>
+        <item name="colorSecondaryVariant">@color/palette_pink_dark</item>
+        <item name="colorControlActivated">@color/palette_pink</item>
+        <item name="android:colorAccent">@color/palette_pink</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Teal" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_teal</item>
+        <item name="colorPrimaryVariant">@color/palette_teal_dark</item>
+        <item name="colorSecondary">@color/palette_teal</item>
+        <item name="colorSecondaryVariant">@color/palette_teal_dark</item>
+        <item name="colorControlActivated">@color/palette_teal</item>
+        <item name="android:colorAccent">@color/palette_teal</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+    <style name="Theme.PorteBo.FullscreenAMOLED.Palette.Slate" parent="Theme.PorteBo.FullscreenAMOLED">
+        <item name="colorPrimary">@color/palette_slate</item>
+        <item name="colorPrimaryVariant">@color/palette_slate_dark</item>
+        <item name="colorSecondary">@color/palette_slate</item>
+        <item name="colorSecondaryVariant">@color/palette_slate_dark</item>
+        <item name="colorControlActivated">@color/palette_slate</item>
+        <item name="android:colorAccent">@color/palette_slate</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+</resources>

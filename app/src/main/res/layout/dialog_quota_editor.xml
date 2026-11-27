@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="১ থেকে ১৮০ মিনিটের মধ্যে অ্যাপের কোটা ঠিক করো।"
+        android:textColor="?attr/colorOnSurface"
+        android:textSize="13sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilQuotaMinutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="অ্যাপ কোটা"
+        app:boxBackgroundMode="outline"
+        app:suffixText="মিনিট">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etQuotaMinutes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="3"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

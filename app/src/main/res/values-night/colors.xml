@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary -->
+    <color name="primary_red">#E50914</color>
+    <color name="primary_red_dark">#B80710</color>
+    <color name="primary_red_glow">#33E50914</color>
+
+    <!-- Dark Theme Palette -->
+    <color name="bg_app">#020617</color>
+    <color name="bg_card">#0F172A</color>
+    <color name="bg_card_elevated">#1E293B</color>
+    <color name="border_card">#1E293B</color>
+    <color name="input_bg">#2A2D36</color>
+
+    <!-- Floating Pill & Segment Toggles -->
+    <color name="bg_floating_nav">#0F172A</color>
+    <color name="pill_indicator_bg">#1E293B</color>
+    <color name="pill_toggle_bg">#020617</color>
+
+    <color name="text_primary">#F8FAFC</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_muted">#64748B</color>
+
+    <!-- Tier Indicators -->
+    <color name="tier_whitelist">#10B981</color>
+    <color name="tier_greylist">#F59E0B</color>
+    <color name="tier_blacklist">#EF4444</color>
+
+    <!-- AMOLED Pure Black (Always #000000 in both themes) -->
+    <color name="bg_pure_black">#000000</color>
+    <color name="border_subtle">#33475566</color>
+    <color name="tier_amber">#F59E0B</color>
+</resources>

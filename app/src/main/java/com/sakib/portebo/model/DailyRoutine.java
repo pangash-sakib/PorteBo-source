@@ -1,0 +1,2 @@
+package com.sakib.portebo.model;
+public final class DailyRoutine {private final boolean enabled;private final String startTime,endTime;public DailyRoutine(boolean enabled,String startTime,String endTime){this.enabled=enabled;this.startTime=startTime==null?"18:00":startTime;this.endTime=endTime==null?"22:00":endTime;}public boolean isEnabled(){return enabled;}public String getStartTime(){return startTime;}public String getEndTime(){return endTime;}}
