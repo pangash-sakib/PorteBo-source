@@ -88,3 +88,10 @@ local.properties
 *.keystore
 release.properties
 *.apk
+build/
+.gradle/
+.cg/
+local.properties
+*.keystore
+release.properties
+*.apk
