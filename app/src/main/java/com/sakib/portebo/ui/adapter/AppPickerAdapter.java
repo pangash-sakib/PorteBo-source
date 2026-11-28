@@ -4,17 +4,22 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
-import com.sakib.portebo.util.IconCache;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
+
 import com.sakib.portebo.R;
 import com.sakib.portebo.data.AppTierManager;
+import com.sakib.portebo.model.AppItem;
 import com.sakib.portebo.util.AnimUtils;
+import com.sakib.portebo.util.NotificationMuteHelper;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,16 +62,48 @@ public class AppPickerAdapter extends RecyclerView.Adapter<AppPickerAdapter.View
         holder.tvName.setText(name);
         holder.tvPackage.setText(pkg);
 
-        IconCache.load(context, pkg, holder.ivIcon);
+        com.sakib.portebo.util.IconCache.load(context, pkg, holder.ivIcon);
 
-        boolean alreadyAdded = AppTierManager.getApp(pkg) != null;
+        AppItem item = AppTierManager.getApp(pkg);
+        boolean alreadyAdded = item != null;
         holder.ivCheck.setVisibility(alreadyAdded ? View.VISIBLE : View.GONE);
+
+        // --- NEW: Mute Toggle Logic ---
+        if (item != null) {
+            holder.btnMute.setVisibility(View.VISIBLE);
+            int muteColor = item.isMuted() 
+                    ? ContextCompat.getColor(context, R.color.tier_blacklist) 
+                    : ContextCompat.getColor(context, R.color.text_muted);
+            holder.btnMute.setColorFilter(muteColor);
+
+            holder.btnMute.setOnClickListener(v -> {
+                AnimUtils.pressFeedback(v, () -> {
+                    boolean newState = !item.isMuted();
+                    item.setMuted(newState);
+                    AppTierManager.saveTiersDebounced(context);
+                    
+                    // Update UI immediately
+                    int newColor = newState 
+                            ? ContextCompat.getColor(context, R.color.tier_blacklist) 
+                            : ContextCompat.getColor(context, R.color.text_muted);
+                    holder.btnMute.setColorFilter(newColor);
+
+                    // Apply actual Android mute
+                    NotificationMuteHelper.setMuted(context, pkg, newState);
+                });
+            });
+        } else {
+            holder.btnMute.setVisibility(View.GONE);
+        }
+        // --- END Mute Toggle Logic ---
 
         holder.itemView.setOnClickListener(v -> {
             AnimUtils.pressFeedback(v, () -> {
                 if (listener != null) {
                     listener.onAppSelected(pkg, name);
                     holder.ivCheck.setVisibility(View.VISIBLE);
+                    // Ensure mute button is visible after adding
+                    holder.btnMute.setVisibility(View.VISIBLE);
                 }
             });
         });
@@ -81,6 +118,7 @@ public class AppPickerAdapter extends RecyclerView.Adapter<AppPickerAdapter.View
         ImageView ivIcon;
         TextView tvName, tvPackage;
         ImageView ivCheck;
+        ImageView btnMute; // NEW
 
         ViewHolder(View itemView) {
             super(itemView);
@@ -88,6 +126,7 @@ public class AppPickerAdapter extends RecyclerView.Adapter<AppPickerAdapter.View
             tvName = itemView.findViewById(R.id.tvPickerAppName);
             tvPackage = itemView.findViewById(R.id.tvPickerAppPackage);
             ivCheck = itemView.findViewById(R.id.ivPickerAddedCheck);
+            btnMute = itemView.findViewById(R.id.btnMuteApp); // NEW
         }
     }
 }

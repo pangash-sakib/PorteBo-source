@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The top app name is intentionally not translated. -->
+    <string name="app_name">পড়তে ব!</string>
+    <string name="app_sub_tag">Porte Bo!</string>
+
+    <string name="nav_home">হোম</string>
+    <string name="nav_app_tiers">অ্যাপ তালিকা</string>
+    <string name="nav_routine">রুটিন</string>
+    <string name="nav_about">সম্পর্কে</string>
+
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_subtitle">ভাষা এবং অ্যাপের চেহারা বদলাও</string>
+    <string name="settings_theme_title">থিম</string>
+    <string name="settings_theme_desc">লাইট এবং ডার্ক মোডের মধ্যে বদলাও</string>
+    <string name="settings_language_title">ভাষা</string>
+    <string name="settings_language_desc">তোমার পছন্দের ভাষা বেছে নাও</string>
+    <string name="language_english">English</string>
+    <string name="language_bangla">বাংলা</string>
+
+    <string name="lockdown_active_banner">পড়ার লকডাউন চালু করো</string>
+    <string name="quote_text">ফোনটা পাশে রাখো, পড়ায় মন দাও।</string>
+    <string name="btn_edit_tiers">অ্যাপের নিয়ম বদলাও</string>
+    <string name="btn_see_more">আরও দেখো</string>
+    <string name="btn_see_less">কম দেখো</string>
+
+    <string name="fake_battery_test_banner">স্টপ স্ক্রিন দেখো</string>
+    <string name="greylist_trackers_title">Greylist টাইমার</string>
+    <string name="greylist_trackers_desc">যে অ্যাপ খোলা, শুধু সেটার টাইমার চলবে। অন্য অ্যাপের টাইমার থেমে থাকবে।</string>
+
+    <string name="no_cancel_rule_title">NO CANCEL নিয়ম</string>
+    <string name="no_cancel_rule_desc">লকডাউন চালু হলে টাইম শেষ না হওয়া পর্যন্ত বন্ধ করা যাবে না।</string>
+
+    <string name="daily_focus_title">প্রতিদিনের রুটিন</string>
+    <string name="daily_focus_how_it_works">শুরুর ও শেষের সময় বেছে নিয়ে রুটিন সেভ করো।</string>
+    <string name="btn_save_routine">রুটিন সেভ করো</string>
+
+    <string name="btn_1_hour">১ ঘণ্টা</string>
+    <string name="btn_2_hour">২ ঘণ্টা</string>
+    <string name="btn_4_hour">৪ ঘণ্টা</string>
+
+    <string name="instant_study_block_title">এখনই লকডাউন</string>
+    <string name="instant_study_block_desc">পড়তে বসলে সময় বেছে লকডাউন চালু করো।</string>
+
+    <string name="exam_routine_title">পরীক্ষার রুটিন</string>
+    <string name="exam_routine_desc">পরীক্ষার আগের দিন সন্ধ্যা ৬টায় ৪ ঘণ্টার লকডাউন হবে।</string>
+    <string name="btn_add_exam_date">পরীক্ষা যোগ করো</string>
+
+    <string name="fake_battery_title">থামো—এই অ্যাপ এখন বন্ধ</string>
+    <string name="fake_battery_box_title">লকডাউন চলছে</string>
+    <string name="fake_battery_box_desc">লকডাউন চলাকালে এই অ্যাপ ব্যবহার করা যাবে না।</string>
+    <string name="fake_battery_btn_close">বন্ধ করো</string>
+
+    <string name="about_hero_title">পড়তে ব! সম্পর্কে জানো</string>
+    <string name="accessibility_desc">অ্যাপ বদলালে শনাক্ত করে লকডাউন চালাতে Accessibility Service</string>
+</resources>
